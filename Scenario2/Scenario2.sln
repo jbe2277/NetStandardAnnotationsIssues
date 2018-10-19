@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp", "WpfApp\WpfApp.csproj", "{6FEE4236-C5D0-4618-AD4D-A95C65AE0CB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainLib", "DomainLib\DomainLib.csproj", "{6D9E2747-A3F6-4615-8307-2EFC622EF9DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainLib.Test", "DomainLib.Test\DomainLib.Test.csproj", "{2692C118-7CFA-46E1-AEF4-0889F66F0994}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FEE4236-C5D0-4618-AD4D-A95C65AE0CB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FEE4236-C5D0-4618-AD4D-A95C65AE0CB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FEE4236-C5D0-4618-AD4D-A95C65AE0CB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FEE4236-C5D0-4618-AD4D-A95C65AE0CB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D9E2747-A3F6-4615-8307-2EFC622EF9DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D9E2747-A3F6-4615-8307-2EFC622EF9DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D9E2747-A3F6-4615-8307-2EFC622EF9DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D9E2747-A3F6-4615-8307-2EFC622EF9DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2692C118-7CFA-46E1-AEF4-0889F66F0994}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2692C118-7CFA-46E1-AEF4-0889F66F0994}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2692C118-7CFA-46E1-AEF4-0889F66F0994}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2692C118-7CFA-46E1-AEF4-0889F66F0994}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66D21FFC-6295-4A23-A817-C83176FCF975}
+	EndGlobalSection
+EndGlobal
