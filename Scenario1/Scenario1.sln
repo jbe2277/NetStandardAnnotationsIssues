@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp", "WpfApp\WpfApp.csproj", "{298053A3-B6AA-4DDE-92E9-28010A6355C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainLib", "DomainLib\DomainLib.csproj", "{49F5953D-8D18-400F-A9B5-5DAEBA8A92C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainLib.Test", "DomainLib.Test\DomainLib.Test.csproj", "{6B1F95B5-7FBC-4B39-B055-5A30F9FE8579}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{298053A3-B6AA-4DDE-92E9-28010A6355C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{298053A3-B6AA-4DDE-92E9-28010A6355C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{298053A3-B6AA-4DDE-92E9-28010A6355C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{298053A3-B6AA-4DDE-92E9-28010A6355C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49F5953D-8D18-400F-A9B5-5DAEBA8A92C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49F5953D-8D18-400F-A9B5-5DAEBA8A92C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49F5953D-8D18-400F-A9B5-5DAEBA8A92C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49F5953D-8D18-400F-A9B5-5DAEBA8A92C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B1F95B5-7FBC-4B39-B055-5A30F9FE8579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B1F95B5-7FBC-4B39-B055-5A30F9FE8579}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B1F95B5-7FBC-4B39-B055-5A30F9FE8579}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B1F95B5-7FBC-4B39-B055-5A30F9FE8579}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A1926B0-9383-4872-AAF7-24F4BD79A0BC}
+	EndGlobalSection
+EndGlobal
