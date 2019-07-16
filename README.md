@@ -20,3 +20,17 @@ The WpfApp and the UnitTest projects fail during runtime with the error:<br/>
 Could not load file or assembly 'System.ComponentModel.Annotations, Version=4.2.0.0, Culture=neutral, 
 PublicKeyToken=b03f5f7f11d50a3a' or one of its dependencies.
 ```
+
+**Workaround**
+
+WPF .csproj file: Add
+```XML
+<RestoreProjectStyle>PackageReference</RestoreProjectStyle>    
+```
+
+Unit test .csproj file: Add
+```XML
+<RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+<AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+<GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
+```
